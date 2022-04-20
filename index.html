@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Day 7, 6th April</h1>
+    <h2>Position</h2>
+    <div class="positionContainer">
+        <div class="sticky box">
+            <strong><em>Position Sticky</em></strong>
+            <p>position: sticky;  top: 0px; left: 0px; width: 100%; height: 70px; z-index: 2;</p>
+        </div>
+        <div class="static box">
+            <h3>Position Static</h3>
+            <p>- Its the default possition even if we apply top, left, and right we will not be able to see any changes
+                in it because it is a specifies the element as the static </p>
+            <pre>
+                position: static;
+                top: 20px;
+                left: 20px;
+            </pre>
+        </div>
+        <div class="relative box">
+            <strong><em>Position Relative</em></strong>
+            <p>- It is always related to its next element or related to its sibling.</p>
+            <pre>
+                position: relative;
+                top: 100px;
+                left: 100px;
+            </pre>
+        </div>
+        <div class="absolute box">
+            <strong><em>Position Absolute</em></strong>
+            <p>- It will always relaive to its parent element if our parent element is not present it
+                will go for root element. </p>
+            <pre>
+                position: absolute;
+                top: 200px;
+                right: 0px;
+            </pre>
+        </div>
+        <div class="fixed box">
+            <strong><em>Position Fixed</em></strong>
+            <p>
+            <pre>position: fixed;
+                top: 600px;
+                right: 20px;</pre>
+            </p>
+        </div>
+
+    </div>
+</body>
+</html>
